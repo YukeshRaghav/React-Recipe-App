@@ -13,17 +13,34 @@ const Container = styled.div`
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0 3px 10px 0 #aaa;
-`
+    padding-right: 2rem;
 
+  
+
+
+`
+ 
 const IntroHeader = styled.h1`
     font-family: 'Rubik Puddles', cursive;
     font-size: 3rem;
     margin: 4rem 4rem 2rem 4rem;
+
+    @media (max-width: 824px)  {
+        font-size: 2.5rem;
+}   
+
+@media (max-width: 640px)  {
+        font-size: 2rem;
+} 
 `
 const SearchText = styled.p`
     font-weight: semi-bold;
     font-size: 1.5rem;
     margin: 0rem 2rem 0 4rem;
+
+    @media (max-width: 640px)  {
+        font-size: 1rem;
+} 
 `
 
 const SearchStyle = {
@@ -46,22 +63,23 @@ const pStyle = {
     margin:"2rem 0 4rem 4rem",
 }
 
+
 // function SuggestionClick(){
 //   console.log(e.innerHTML)
 // }
 
 export function IntroComponent(props) {
     return(
-        <Container>
-            <IntroHeader>Cook like a Chef</IntroHeader>
-            <SearchText>Enter the name of the Recipe you need to
-search ... <MyTypedComponent></MyTypedComponent></SearchText>
-<SearchComponent style={SearchStyle}>
+        <Container className='introCom-container'>
+            <IntroHeader className='cookLike'>Cook like a Chef</IntroHeader>
+            <SearchText className='enterThe'>Enter the name of the Recipe you need to
+search ... <MyTypedComponent className="typed"></MyTypedComponent></SearchText>
+<SearchComponent className='introSearch' style={SearchStyle}>
         <SearchIcon src='/search.svg'/>
         <SearchInput className='searchInput' placeholder='Search Recipes' onChange={props.change}/>
       </SearchComponent>
 
-      <p style={pStyle}>Eg : <span className='span' style= {spanStyle}>Chicken</span> <span style= {spanStyle}>Fish</span> <span style= {spanStyle}>Egg</span></p>
+      <p className='intro-eg' style={pStyle}>Eg : <span className='span' style= {spanStyle}>Chicken</span> <span className='span' style= {spanStyle}>Fish</span> <span className='span' style= {spanStyle}>Egg</span></p>
         </Container>
     )
 }

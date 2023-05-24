@@ -7,3 +7,40 @@
 body {
     font-family: 'Hanken Grotesk', sans-serif;
 }
+
+@media (max-width: 824px)  {
+    .introCom-container {
+        width: 80%;
+    }
+    .cookLike {
+        font-size: 2.5rem;
+    }
+}   
+@media (max-width: 620px) {
+
+    .introCom-container {
+        width: 90%;
+    }
+
+    .cookLike {
+        font-size: 2rem;
+    }
+
+    .enterThe {
+        font-size: 
+    }
+    .span {
+        margin: 0 0.5rem;
+
+    }
+  }
+
+
+  @media (max-width: 500px) {
+    .span {
+        font-size: 0.5rem;
+        margin: 0 0.2rem;
+
+    }
+  }
+

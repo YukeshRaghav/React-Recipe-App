@@ -1,10 +1,17 @@
 import React from 'react';
 import Typed from 'typed.js';
+import styled from 'styled-components';
 
 const customStyle = {
     fontWeight: "bold",
     fontSize: "2rem"
 }
+
+const Span = styled.span`
+      @media (max-width: 640px)  {
+        font-size: 1.5rem;
+} 
+`
 export function MyTypedComponent() {
   // Create reference to store the DOM element containing the animation
   const el = React.useRef(null);
@@ -25,6 +32,6 @@ export function MyTypedComponent() {
   }, []);
 
   return (
-      <span style={customStyle} ref={el} />
+      <Span style={customStyle} ref={el} />
   );
 }
