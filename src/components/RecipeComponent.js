@@ -40,6 +40,17 @@ ${'' /* border: 1px solid black; */}
   margin-top: 1rem;
 
 `
+
+const Hr = styled.hr`
+  border: 2px solid black;
+  width: 60%;
+margin-left: 20%;
+margin-bottom: 0.75rem;
+margin-top: -0.75rem;
+border-radius: 100%;
+
+`
+
  const IngredientsText = styled.span`
   font-size: 14px;
   border: solid 1.5px black;
@@ -121,6 +132,7 @@ export const RecipeComponent = (props) => {
           <RecipeName>
           {recipeObj.label}
           </RecipeName>
+          <Hr />
           <CuisineType>
            Cuisine Type : {recipeObj.cuisineType}
           </CuisineType>

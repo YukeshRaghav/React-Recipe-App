@@ -1,0 +1,152 @@
+.container {
+    width: 60%;
+    border: 1px solid black;
+    margin-top: 5rem; 
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://img.freepik.com/free-vector/people-ordering-food-cafe-online_74855-5913.jpg?w=1060&t=st=1684771706~exp=1684772306~hmac=137e66004af57f659d68e92409d926353454a84ed6933571bd4fd9b6826ab866');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 3px 10px 0 #aaa;
+    padding-right: 2rem;
+}
+
+.introHeader {
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 3rem;
+    margin: 4rem 4rem 2rem 4rem;
+}
+
+.searchText {
+    font-weight: semi-bold;
+    font-size: 1.5rem;
+    margin: 0rem 2rem 0 4rem; 
+}
+
+.searchComponent-intro {
+    margin:2rem auto 0 4rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.searchIcon-intro {
+    width: 32px;
+height: 32px;
+}
+
+.searchInput-intro {
+    border: none;
+  outline: none;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+
+
+.span-intro {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px 0 #aaa;
+    cursor:  pointer;
+}
+
+.intro-eg {
+    margin:2rem 0 4rem 4rem;
+}
+
+
+@media (max-width:870px) {
+    .container {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width:630px) {
+    .introHeader {
+        font-size: 2rem;
+    }
+    .searchText {
+        font-size: 1rem;;
+    }
+    .typed {
+        font-size: 1.25rem;
+    }
+    .searchComponent-intro {
+        font-size: 1rem;
+    }
+
+    .searchIcon-intro {
+        width: 26px;
+    height: 26px;
+    }
+    .span-intro {
+        margin: 0 0.75rem;
+    }
+}
+
+@media (max-width:550px) {
+    .introHeader {
+        font-size: 1.75rem;
+        margin: 4rem 1rem 2rem 2rem;
+    }
+    .searchText {
+        font-size: 0.8rem;
+        margin: 0rem 1rem 0 2rem; 
+    }
+    .typed {
+        font-size: 1rem;
+    }
+    .searchComponent-intro {
+        font-size: 1rem;
+        margin:2rem 1rem 0 2rem;
+    }
+    .span-intro {
+        margin: 0 0.5rem;
+    }
+    .intro-eg {
+        margin:2rem 1rem 4rem 2rem;
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width:470px){
+    .container {
+        width: 90%;
+    }
+
+    .span-intro {
+        margin: 0 0.3rem;
+    }
+    .intro-eg {
+        margin:2rem 1rem 4rem 2rem;
+        font-size: 0.65rem;
+    }
+
+
+}
+@media (max-width:410px){
+    .container {
+        width: 98%;
+    }
+
+    .span-intro {
+        margin: 0 0.3rem;
+    }
+    .intro-eg {
+        margin:2rem 0rem 4rem 2rem;
+        font-size: 0.6rem;
+    }
+
+
+}

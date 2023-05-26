@@ -3,13 +3,12 @@ import Typed from 'typed.js';
 import styled from 'styled-components';
 
 const customStyle = {
-    fontWeight: "bold",
-    fontSize: "2rem"
+    fontWeight: "bold"
 }
 
 const Span = styled.span`
       @media (max-width: 640px)  {
-        font-size: 1.5rem;
+        font-size: 1rem;
 } 
 `
 export function MyTypedComponent() {
