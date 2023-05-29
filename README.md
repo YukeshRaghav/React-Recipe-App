@@ -1,7 +1,5 @@
-<img src="public/logo.svg" width="50%" height="50%" />
+<img src="public/logo.svg" width="50%" height="50%" text-align="center" align-items="center" justify-content="center"/>
 
-
-https://github.com/Alone-Y154/React-Recipe-App/blob/main/public/burger.png
 
 
 <br>
