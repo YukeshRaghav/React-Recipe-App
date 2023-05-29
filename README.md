@@ -9,6 +9,8 @@
 
 
 <br>
+
+<img src="public/home-page.png" width="100%x"  />
 <p>Responsive Recipe Website Intergrated with Login and LogOut functionality with <a href="https://auth0.com/">Auth0</a> & Made using React, Reacts Hooks & Axios</p>
 
 <br>
@@ -19,7 +21,8 @@ Also Implemented [Typed.js](https://github.com/mattboldt/typed.js)
 <br>
 
 API used [Edamam Api-Recipe search Api](https://developer.edamam.com/edamam-docs-recipe-api)
-
+<br> 
+<img src="public/Api-call.png" width="100%"  />
 <br>
 
 ### Clone the repo and install dependencies:
