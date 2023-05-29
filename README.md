@@ -1,4 +1,4 @@
-<img src="public/logo.svg" width="50%" height="50%" display="flex" justify-content="center"/>
+<img src="public/logo.svg" width="50%" height="50%" display="flex" align-items="center" text-align="center" justify-content="center"/>
 
 
 
