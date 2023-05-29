@@ -1,11 +1,31 @@
-<img src="public/logo.svg" width="50%" height="50%" display="flex" align-items="center" text-align="center" justify-content="center"/>
+<div>
+  
+  <img src="public/logo.svg" width="50px" height="50px" />
+  
+  
+ </div>
+  
+# [React Recipe App](https://main--react-recipe-app-g11.netlify.app/)
 
 
+<br>
+Responsive Recipe Website With Intergrated with Login and LogOut functionality with [Auth 0](https://auth0.com/) 
+
+<br>
+Made using React, Reacts Hooks & Axios
+
+<br>
+<br>
+
+Also Implemented [Typed.js](https://github.com/mattboldt/typed.js)
+
+<br>
+
+API used [Edamam Api-Recipe search Api](https://developer.edamam.com/edamam-docs-recipe-api)
 
 <br>
 
 ### Clone the repo and install dependencies:
-
 
 <br>
 
@@ -13,7 +33,6 @@
 ## This installs the required dependencies
 ## Install
 
-Clone the repo and install dependencies:
 
 ```bash
 git clone --depth 1 --branch main https://github.com/Alone-Y154/React-Recipe-App.git your-project-name
