@@ -9,7 +9,7 @@
 
 
 <br>
-Responsive Recipe Website With Intergrated with Login and LogOut functionality with [Auth 0](https://auth0.com/) 
+Responsive Recipe Website Intergrated with Login and LogOut functionality with [Auth 0](https://auth0.com/) 
 
 <br>
 Made using React, Reacts Hooks & Axios
