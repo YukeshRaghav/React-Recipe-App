@@ -1,4 +1,4 @@
-<img src="https://github.com/Alone-Y154/React-Recipe-App/blob/main/public/burger.png" width="100%" />
+<img src="public/logo.svg" width="50%" height="50%" />
 
 
 https://github.com/Alone-Y154/React-Recipe-App/blob/main/public/burger.png
