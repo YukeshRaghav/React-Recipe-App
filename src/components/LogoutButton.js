@@ -23,7 +23,7 @@ const LogoutButton = () => {
 
   return (
     <Button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
-      LogOut
+      LogOut 
     </Button>
   );
 };
